@@ -1,0 +1,42 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "c4d5e6f7-a8b9-0123-cdef-456789abcdef",
+  "alias": "PermissionVisualizerWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart",
+    "TeamsPersonalApp",
+    "TeamsTab",
+    "SharePointFullPage"
+  ],
+
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "Advanced"
+      },
+      "title": {
+        "default": "SharePoint Permission Visualizer"
+      },
+      "description": {
+        "default": "Visualize SharePoint permission inheritance, external access, direct assignments, SharePoint groups, and risky permission patterns."
+      },
+      "officeFabricIconFontName": "Shield",
+      "properties": {
+        "title": "SharePoint Permission Visualizer",
+        "description": "Analyze the current SharePoint site to identify broken inheritance, external users, direct permissions, SharePoint groups, and risky access patterns.",
+        "defaultIncludeFolders": true,
+        "defaultIncludeItems": false,
+        "defaultIncludeHiddenLists": false,
+        "maxItemsPerList": 2000,
+        "enableMockMode": false
+      }
+    }
+  ]
+}

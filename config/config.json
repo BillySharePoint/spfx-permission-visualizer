@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "permission-visualizer-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/permissionVisualizer/PermissionVisualizerWebPart.js",
+          "manifest": "./src/webparts/permissionVisualizer/PermissionVisualizerWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PermissionVisualizerWebPartStrings": "lib/webparts/permissionVisualizer/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-permission-visualizer-client-side-solution",
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Visualize SharePoint permission inheritance, external users, direct assignments, and permission risk."
+      },
+      "longDescription": {
+        "default": "An SPFx solution that helps SharePoint admins visualize permission inheritance, external users, direct assignments, SharePoint groups, and risky access patterns across SharePoint Online sites."
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "Permission Visualizer Feature",
+        "description": "Permission Visualizer Feature",
+        "id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-permission-visualizer.sppkg"
+  }
+}
