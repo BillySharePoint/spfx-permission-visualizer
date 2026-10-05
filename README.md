@@ -158,16 +158,6 @@ Possible export use cases:
 
 ---
 
-## Screenshot
-
-> Recommended repo path for the screenshot:
->
-> `assets/spfx-permission-visualizer-dashboard.png`
-
-![SPFx Permission Visualizer Screenshot](./assets/spfx-permission-visualizer-dashboard.png)
-
----
-
 ## Tech Stack
 
 This project uses:
@@ -461,36 +451,12 @@ Good contribution areas include:
 
 ## License
 
-This project is intended to be released as open source.
-
-Recommended license:
-
-```text
-MIT
-```
+MIT. See [LICENSE](./LICENSE).
 
 ---
 
-## Author
+## Related
 
-Built by **Billy Peralta** as part of an open-source SharePoint and Microsoft 365 portfolio focused on practical governance, migration, compliance, and administration tools.
-
-Website:
-
-```text
-https://www.billyperalta.com
-```
-
-GitHub:
-
-```text
-https://github.com/BillySharePoint
-```
-
----
-
-## Repository
-
-```text
-https://github.com/BillySharePoint/spfx-permission-visualizer
-```
+- Article: [Building a SharePoint Permission Visualizer with SPFx](https://www.billyperalta.com/blog/building-sharepoint-permission-visualizer-spfx/?utm_source=github&utm_medium=referral&utm_campaign=spfx_permission_visualizer&utm_content=readme_article)
+- Need this across a whole tenant? See the [SharePoint permissions and oversharing assessment](https://www.billyperalta.com/services/sharepoint-permissions-cleanup-consultant/?utm_source=github&utm_medium=referral&utm_campaign=spfx_permission_visualizer&utm_content=readme_service_cta).
+- Author: [Billy Peralta](https://www.billyperalta.com/?utm_source=github&utm_medium=referral&utm_campaign=spfx_permission_visualizer), SharePoint and Microsoft 365 consultant, Vancouver, BC
